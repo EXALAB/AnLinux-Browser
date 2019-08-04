@@ -1,7 +1,24 @@
-# Roksolana-WebBrowser
+# AnLinux-Browser
 
-Simple gtk web browser
-A simple gtk web browser made with python, gtk, glade, and webkit. 
+![Version](https://img.shields.io/badge/v0.1-OpenSource-33FF33.svg)
+![License](https://img.shields.io/badge/license-GPL--3.0-FF8800.svg)
+![Python](https://img.shields.io/badge/python-3.x-0066FF.svg)
 
+A Internet solution for [AnLinux](https://github.com/EXALAB/AnLinux-App) projects.
 
-![Alt text](https://cloud.githubusercontent.com/assets/9098121/12543425/39f21512-c2e4-11e5-96c5-5753309cdb65.png?raw=true "Title")
+## Requirement
+- Ubuntu >= 16.04
+- Any Linux distribution without [the Install Shell Script](install.sh)
+##### (below will be install by [install.sh](install.sh))
+- Python >= 3.5
+- gir1.2-webkit-3.0
+-  python-gi
+
+## Installation
+       sh ./install.sh
+
+## Thanks for
+- Origin: [Roksolana-WebBrowser](https://github.com/gort818/Roksolana-WebBrowser)
+- According License: [GPL 3.0](LICENSE.md)
+
+> Copyright(c)2019 [Star Inc.](https://starinc.xyz) All Rights Reserved.

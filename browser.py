@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import os, sys, gi
 
@@ -12,7 +12,7 @@ class Browser:
   def __init__(self):
     self.builder = Gtk.Builder()
    
-    self.builder.add_from_file("roksolana.glade")
+    self.builder.add_from_file("core/browser.glade")
     self.builder.connect_signals(self)
 
     self.toolbar1 = self.builder.get_object("toolbar1")
