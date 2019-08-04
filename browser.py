@@ -57,23 +57,25 @@ class Browser:
 
   def on_back_clicked(self, widget):
     self.webview.go_back()
+
   def on_forward_clicked(self, widget):
      self.webview.go_forward()
+
   def on_stop_clicked(self, widget):
      self.webview.stop_loading()
 
   def change_title(self, widget, frame, title):
-     self.window.set_title('Roksolana Browser    |     ' + title)
+     self.window.set_title(title + ' - AnLinux-Browser')
+
   def change_url(self, widget, frame):
      uri = frame.get_uri()
      self.url.set_text(uri)
      self.back.set_sensitive(self.webview.can_go_back() )
      self.forward.set_sensitive(self.webview.can_go_forward() )
-     
-     
 	
   def spinner_on(self,widget,frame):
      self.spinner.start()
+
   def spinner_off(self, widget,frame):
      self.spinner.stop()
      
@@ -82,6 +84,7 @@ class Browser:
      
   #def progress_change(self,wiget,frame):
    #  self.progressbar.set_pulse_step(.5)
+
   #def progress_off(self,widget,frame):
      #self.progressbar.set_pulse_step(0)
   
