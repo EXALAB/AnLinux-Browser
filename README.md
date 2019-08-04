@@ -15,7 +15,10 @@ A Internet solution for [AnLinux](https://github.com/EXALAB/AnLinux-App) project
 -  python-gi
 
 ## Installation
-       sh ./install.sh
+    ./install.sh
+
+## Usage
+    ./browser.py
 
 ## Thanks for
 - Origin: [Roksolana-WebBrowser](https://github.com/gort818/Roksolana-WebBrowser)
