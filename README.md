@@ -24,4 +24,4 @@ A Internet solution for [AnLinux](https://github.com/EXALAB/AnLinux-App) project
 - Origin: [Roksolana-WebBrowser](https://github.com/gort818/Roksolana-WebBrowser)
 - According License: [GPL 3.0](LICENSE.md)
 
-> Copyright(c)2019 [Star Inc.](https://starinc.xyz) All Rights Reserved.
+> Copyright(c)2022 [Star Inc.](https://starinc.xyz) All Rights Reserved.
